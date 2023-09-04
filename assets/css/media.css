@@ -1,0 +1,334 @@
+@media screen and (max-width: 450px) {
+	body {
+		width: 100%;
+	}
+	.header {
+		width: 100%;
+		padding-left: 3rem;
+		padding-right: 3rem;
+	}
+	.btn_mobile {
+		display: block;
+		z-index: 9999;
+	}
+	.nav-bar {
+		background: green;
+		position: absolute;
+		width: 100%;
+		height: 100vh;
+		top: 0;
+		bottom: 0;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+		opacity: 0;
+		transition: all 0.5s ease-in;
+		pointer-events: none;
+		visibility: hidden;
+	}
+	.nav-bar-list {
+		flex-direction: column;
+		gap: 3rem;
+	}
+	.nav-open .nav-bar {
+		opacity: 1;
+		pointer-events: auto;
+		visibility: visible;
+		transform: translateX(0);
+	}
+	.nav-open .btn_mobile-close {
+		display: block;
+	}
+	.nav-open .btn_mobile-open {
+		display: none;
+	}
+	.section-hero {
+		padding: 3rem;
+	}
+	.hero {
+		grid-template-columns: 1fr;
+	}
+	.text {
+		font-size: 1.6rem;
+		margin-bottom: 3rem;
+	}
+	.hero-text {
+		font-size: 3rem;
+	}
+	.hero-paragraph {
+		font-size: 1.7rem;
+	}
+	.btn {
+		display: flex;
+		gap: 2rem;
+		justify-content: center;
+	}
+	.btn-cta {
+		font-size: 1.5rem;
+	}
+	.header-image-container {
+		display: flex;
+		justify-content: center;
+	}
+	.header-img {
+		width: 80%;
+	}
+	.doctor {
+		padding: 1rem;
+		width: 8rem;
+		left: 0;
+	}
+	.corona {
+		padding: 0.5rem;
+		width: 7rem;
+		right: 0.3rem;
+	}
+	.specialist {
+		width: 70%;
+		padding: 1.5rem 1.5rem;
+		left: 4%;
+	}
+	.specialist-1 {
+		width: 5rem;
+	}
+	.text-specialist {
+		font-size: 1.5rem;
+		line-height: 1;
+		margin-top: 2rem;
+	}
+	.schedule-head {
+		margin-top: 9rem;
+		margin-bottom: 4rem;
+	}
+	.schedule {
+		font-size: 2rem;
+	}
+	.schedule-2 {
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-start;
+		align-items: start;
+		padding: 2rem 1.5rem;
+	}
+	.cmp_logos {
+		width: 10rem;
+	}
+	.result {
+		padding: 3rem;
+		width: 100%;
+		padding-top: 9rem;
+	}
+	.result-checking {
+		justify-content: center;
+		display: flex;
+		padding: 1rem;
+	}
+	.checking-text {
+		text-align: center;
+		font-size: 1.2rem;
+		padding: 2rem;
+		margin-bottom: 0.51rem;
+	}
+	.form-for-checking {
+		flex-direction: column;
+		gap: 3rem;
+		padding: 1rem 2rem;
+	}
+	.form-for-checking input {
+		border-radius: 10px;
+		width: 100%;
+	}
+	.check {
+		width: 60%;
+		padding: 1.1rem 4rem;
+		font-size: 2rem;
+		border-radius: 10px;
+	}
+	.for-certificate {
+		width: 100%;
+		padding: 2rem;
+		font-size: 1rem;
+		border-radius: 10px;
+		text-align: center;
+		margin: 0;
+	}
+	.get-vaccine-section {
+		padding: 3rem;
+	}
+	.why-get-vaccine-con {
+		flex-direction: column;
+		align-items: flex-start;
+	}
+	.why-get-vaccine {
+		font-size: 3rem;
+	}
+	.why-get-vaccine-text {
+		font-size: 1.8rem;
+		max-width: 100%;
+	}
+	.why-get-vaccine-outtext {
+		flex-direction: column;
+		gap: 4rem;
+	}
+	.protect-yourself {
+		width: 100%;
+		padding: 3rem;
+		border-radius: 30px 130px 30px 30px;
+	}
+	.protect-yourself-text {
+		font-size: 2.1rem;
+	}
+	.minimize-speed {
+		width: 60%;
+		height: 25rem;
+		margin-right: 15rem;
+		padding: 1.5rem 2.5rem;
+	}
+	.minimize-text {
+		font-size: 1.7rem;
+		margin-bottom: 4rem;
+	}
+	.minimize-text-2 {
+		font-size: 2rem;
+		margin-bottom: 3rem;
+	}
+	.read-more-2 {
+		margin-bottom: 1rem;
+	}
+	.section-3 {
+		padding: 5rem;
+	}
+	.reg-form {
+		grid-template-columns: 1fr;
+	}
+	.reg-form-image {
+		grid-row: 1;
+	}
+	.vaccine-image {
+		border-radius: 20px;
+		width: 100%;
+	}
+	.vaccinecorona {
+		top: 0;
+		margin-top: 3rem;
+		left: -20px;
+		width: 8rem;
+	}
+	.cov-19 {
+		margin-top: 2rem;
+		font-size: 2rem;
+		right: 50%;
+	}
+	.verify-status {
+		margin-bottom: 4rem;
+		right: 50%;
+		font-size: 1.3rem;
+		width: 20rem;
+		text-align: center;
+	}
+	.number-flex {
+		flex-direction: column;
+	}
+	.form-number {
+		width: 100%;
+	}
+	.form-verify {
+		width: 50%;
+		font-size: 1.9rem;
+		display: flex;
+		justify-content: center;
+		text-align: center;
+		margin-top: 2rem;
+	}
+	.registrated {
+		font-size: 1.5rem;
+	}
+	.symptoms-div {
+		text-align: center;
+	}
+	.cov-19-head {
+		font-size: 2rem;
+	}
+	.cov-19-symptoms {
+		font-size: 3rem;
+	}
+	.symptoms-paragraph {
+		font-size: 1.7rem;
+	}
+	.symptoms-paragraph br {
+		display: none;
+	}
+	.list li {
+		font-size: 1.2rem;
+		width: 100%;
+	}
+	.list li::after {
+		height: 0.6px;
+	}
+	.symptoms-head_container {
+		width: 100%;
+	}
+	.symptoms-head-image {
+		width: 100%;
+	}
+	.feedback-section {
+		padding: 2rem;
+	}
+	.patient-think {
+		font-size: 3rem;
+	}
+	.feedback-comment {
+		font-size: 2rem;
+	}
+	.feedback-comment br {
+		display: none;
+	}
+	.feedback-comment-header {
+		flex-direction: column;
+	}
+	.feedback-1 {
+		width: 100%;
+		padding: 3.5rem 2rem;
+	}
+	.cta {
+		background: none;
+	}
+	.CTA-container {
+		padding: 4rem 2.2rem;
+		/* width: 70%; */
+		margin: 3rem;
+	}
+	.CTA-container h2 {
+		font-size: 2.2rem;
+	}
+	.CTA-container p {
+		font-size: 1.5rem;
+	}
+	.cta-message input {
+		width: 100%;
+		border-top-left-radius: 50px;
+		border-bottom-left-radius: 50px;
+		padding: 1.7rem;
+	}
+	.cta-message button {
+		border-bottom-right-radius: 50px;
+		border-top-right-radius: 50px;
+		padding: 1rem;
+	}
+	.footer-section {
+		padding: 27rem 3rem 5rem 3rem;
+	}
+	.footer-Nav {
+		flex-direction: column;
+		align-items: flex-start;
+	}
+	.footer_icon {
+		font-size: 4rem;
+		margin-top: 5rem;
+	}
+	.footer-list {
+		margin-top: 3rem;
+		align-items: flex-start;
+	}
+}
